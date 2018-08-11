@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全国买房_买全国二手房_买全国新房买房贷款一房天下</title>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <style>
+
+    </style>
+    <script type="text/javascript">
+        //显示灰色 jQuery 遮罩层
+        function showBg() {
+            var bh = $("body").height();
+            var bw = $("body").width();
+            $("#fullbg").css({
+                height: bh,
+                width: bw,
+                display: "block"
+            });
+            $("#dialog").show();
+        }
+        //关闭灰色 jQuery 遮罩
+        function closeBg() {
+            $("#fullbg,#dialog").hide();
+        }
+    </script>
+    <link rel="stylesheet" href="css/head.css" type="text/css"/>
+    <link rel="stylesheet" href="css/ksmf.css" type="text/css"/>
+    <link href="http://js.soufunimg.com/homepage/new/fang905bj/newsV31/style/www_css20171222.css?v=30" rel="stylesheet"
+          type="text/css"/>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="container">
+            <ul id="dh">
+                <li id="tb"><a><img src="img/navlogo.png"></a></li>
+                <li class="s C"><a href="index.html">首页</a></li>
+                <li class="C">
+                    <a href="#">新房<i class='fa fa-angle-down'></i></a>
+                    <ul>
+                        <li class="A "><a class="A" href="#">本月开盘</a></li>
+                        <li class="A "><a class="A" href="#">热门楼盘</a></li>
+                        <li class="A"><a class="A" href="#">特价房</a></li>
+                        <li class="A"><a class="A" href="#">打折楼盘</a></li>
+                        <li class="A"><a class="A" href="#">本月交房</a></li>
+                        <li class="A"><a class="A" href="#">楼盘新动态</a></li>
+                        <li class="A"><a class="A" href="#">楼盘导购</a></li>
+                        <li class="A"><a class="A" href="#">新房排行榜</a></li>
+                        <li class="A"><a class="A" href="#">购房知识</a></li>
+                        <li class="A"><a class="A" href="#">看房团</a></li>
+                        <li class="A"><a class="A" href="#">商业地产</a></li>
+                        <li class="A"><a class="A B" href="#" style="text-align: center;padding-top: 3px">帮你找房</a></li>
+                    </ul>
+                </li>
+                <li class="C">
+                    <a href="#">二手房<i class='fa fa-angle-down'></i></a>
+                    <ul>
+                        <li class="A"><a class="A" href="#">在售房源</a></li>
+                        <li class="A"><a class="A" href="#">优选房源</a></li>
+                        <li class="A"><a class="A" href="#">找小区</a></li>
+                        <li class="A"><a class="A" href="#">找别墅</a></li>
+                        <li class="A"><a class="A" href="#">查成交</a></li>
+                        <li class="A"><a class="A" href="#">二手房排行榜</a></li>
+                        <li class="A"><a class="A" href="#">购房知识</a></li>
+                        <li class="A"><a class="A B" href="#" style="text-align: center;padding-top: 3px">我要卖房</a></li>
+                    </ul>
+                </li>
+                <li class="C">
+                    <a href="#">租房<i class='fa fa-angle-down'></i></a>
+                    <ul>
+                        <li class="A"><a class="A" href="#">在租房源</a></li>
+                        <li class="A"><a class="A" href="#">品牌公寓</a></li>
+                        <li class="A"><a class="A" href="#">楼盘新动态</a></li>
+                        <li class="A"><a class="A" href="#">整租房源</a></li>
+                        <li class="A"><a class="A" href="#">合租房源</a></li>
+                        <li class="A"><a class="A" href="#">别墅房源</a></li>
+                        <li class="A"><a class="A" href="#">短租日租</a></li>
+                        <li class="A"><a class="A" href="#">租房知识</a></li>
+                        <li class="A"><a class="A" href="#">求租</a></li>
+                        <li class="A"><a class="A B" href="#" style="text-align: center;padding-top: 3px">免费发布出租</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="C"><a href="#">查房价<i class='fa fa-angle-down'></i></a></li>
+                <li class="C">
+                    <a href="#">装修家居<i class='fa fa-angle-down'></i></a>
+                    <ul>
+                        <li class="A"><a class="A" href="#">找装饰公司</a></li>
+                        <li class="A"><a class="A" href="#">装修日记</a></li>
+                        <li class="A"><a class="A" href="#">装修效果图</a></li>
+                        <li class="A"><a class="A" href="#">装修攻略</a></li>
+                        <li class="A"><a class="A" href="#">家居资讯</a></li>
+                        <li class="A"><a class="A" href="#">建材家具</a></li>
+                        <li class="A"><a class="A B" href="#" style="text-align: center;padding-top: 3px">帮你装修</a></li>
+                    </ul>
+                </li>
+
+                <li class='sub-menu C'>
+                    <a href="#">写字楼<i class='fa fa-angle-down'></i></a>
+                    <ul>
+                        <li class="A"><a class="A" href="#">写字楼出租</a></li>
+                        <li class="A"><a class="A" href="#">写字楼出售</a></li>
+                        <li class="A"><a class="A" href="#">写字楼新盘</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu C'>
+                    <a href="#">商铺<i class='fa fa-angle-down'></i></a>
+                    <ul>
+                        <li class="A"><a class="A" href="#">商铺出租</a></li>
+                        <li class="A"><a class="A" href="#">商铺出售</a></li>
+                        <li class="A"><a class="A" href="#">商铺新盘</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu C'>
+                    <a href="#">业主论坛<i class='fa fa-angle-down'></i></a>
+                    <ul>
+                        <li class="A"><a class="A" href="#">精华帖</a></li>
+                        <li class="A"><a class="A" href="#">业主活动</a></li>
+                        <li class="A"><a class="A" href="#">装修论坛</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu C'>
+                    <a href="#">房产百科<i class='fa fa-angle-down'></i></a>
+                    <ul>
+                        <li class="A"><a class="A" href="#">房产快讯</a></li>
+                        <li class="A"><a class="A" href="#">房产问答</a></li>
+                        <li class="A"><a class="A" href="#">房产知识</a></li>
+                        <li class="A"><a class="A" href="#">房产圈</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu C'>
+                    <a href="#">更多<i class='fa fa-angle-down'></i></a>
+                    <ul>
+                        <li class="A"><a class="A" href="#">金融</a></li>
+                        <li class="A"><a class="A" href="#">产业</a></li>
+                        <li class="A"><a class="A" href="#">海外房产</a></li>
+                        <li class="A"><a class="A" href="#">文化活动频道</a></li>
+                        <li class="A"><a class="A" href="#">VR全景看房</a></li>
+                        <li class="A"><a class="A" href="#">移动APP</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu C D'>
+                    <a href="#">登录<i class='fa fa-angle-down'></i></a>
+                    <ul>
+                        <li class="A"><a class="A" href="#">我的房天下</a></li>
+
+                    </ul>
+                </li>
+                <a href="#" id="D"></a>
+                <li class='sub-menu C '>
+                    <a href="#">经济云<i class='fa fa-angle-down'></i></a>
+                </li>
+                <li class='sub-menu C '>
+                    <a href="#">开发云<i class='fa fa-angle-down'></i></a>
+                </li>
+                <li class='sub-menu C '>
+                    <a href="#">家居云<i class='fa fa-angle-down'></i></a>
+                </li>
+                <!--<a class="E" href="#">经济云</a>
+                 <a class="E" href="#">开发云</a>
+                 <a class="E" href="#">家居云</a>-->
+            </ul>
+        </div>
+    </nav>
+    <script>
+        $('nav li').hover(
+            function () {
+                $('ul', this).stop().slideDown(100);
+            },
+            function () {
+                $('ul', this).stop().slideUp(200);
+            }
+        );
+    </script>
+</header>
+<section>
+    <p id="BT"><strong>录入房源</strong></p>
+    <hr style="width: 85%;text-align: center">
+    <form action="#" style="float: left;width: 700px">
+    <p class="wz">小区名称</p>
+    <input type="text" placeholder="请输入小区名称" name="xqm" size="50" >
+    <br>
+    <p  class="wz"style="margin-left: 18px">楼栋号</p>
+        <div class="wbk">
+            <input type="text" placeholder="请输入楼栋" name="ld" size="30"  style="padding-right:40px;width: 200px">
+            <span style="margin-left: -70px;color: #989898">栋</span>
+        </div>
+        <div class="wbk">
+            <input type="text" placeholder="请输入单元" name="dy" size="17"  style="padding-right:50px;width: 100px">
+            <span style="margin-left: -80px;color: #989898">单元</span>
+        </div>
+        <div class="wbk">
+            <input type="text" placeholder="请输入房号" name="fh" size="17" style="padding-right:35px;width: 100px">
+            <span style="margin-left: -65px;color: #989898">室</span>
+        </div>
+    <br>
+    <p class="wz" style="margin-left: 36px">户型</p>
+        <div class="wbk">
+            <input type="text"  name="shi" size="17" style="padding-right:35px;width: 118px">
+            <span style="margin-left: -65px;color: #989898">室</span>
+        </div>
+        <div class="wbk">
+            <input type="text"  name="ting" size="17" style="padding-right:35px;width: 118px">
+            <span style="margin-left: -65px;color: #989898">厅</span>
+        </div>
+        <div class="wbk">
+            <input type="text"  name="wei" size="17" style="padding-right:35px;width: 118px">
+            <span style="margin-left: -65px;color: #989898">卫</span>
+        </div>
+    <br>
+    <p class="wz">建筑面积</p>
+    <input type="text"  name="jzmj" size="17" style="padding-right:35px;width: 118px">
+        <span style="margin-left: -35px;color: #989898">㎡</span>
+    <br>
+    <p class="wz" style="margin-left: 36px">楼层</p>
+        <div class="wbk" style="word-spacing:60px">
+
+            <input type="text"  name="djceng" size="17" class="input-xx" style="width: 100px">
+            <span style="color: #989898;margin-left: -215px;">第</span>
+            <span style="margin-left: 42px;color: #989898">层</span>
+        </div>
+        <div  class="wbk">
+            <input type="text"  name="gjceng" size="17" style="margin-left:-45px;padding-left: 26px;padding-right: 26px;width: 100px">
+            <span style="margin-left: -180px;color: #989898">共</span>
+            <span style="margin-left:75px;color: #989898">层</span>
+        </div>
+    <br>
+    <p class="wz" style="margin-left: 36px">朝向</p>
+    <select name="chaoxiang" style="height: 35px;width: 150px;font-size: 17px">
+        <option value="南北">南北</option>
+        <option value="南">南</option>
+        <option value="东南">东南</option>
+        <option value="东">东</option>
+        <option value="西南">西南</option>
+        <option value="北">北</option>
+        <option value="西">西</option>
+        <option value="东西">东西</option>
+        <option value="东北">东北</option>
+        <option value="coputer">西北</option>
+    </select>
+    <br>
+    <p class="wz" style="margin-left: 36px">售价</p>
+    <input type="text"  name="shoujia" size="17"  style="padding-right:35px;width: 118px" >
+        <span style="margin-left: -35px;color: #989898">万</span>
+    <br>
+    <p class="wz" style="margin-left: 36px">称呼</p>
+    <input type="text"  name="chenghu" size="17" style="width: 150px">
+        <input id="female" type="radio" name="gender" value="f" style="vertical-align: middle;">
+        <label for="female" style="vertical-align: middle;">先生</label>
+        <input id="male" type="radio" name="gender" value="m" style="vertical-align: middle;">
+        <label for="male" style="vertical-align: middle;">女士</label>
+        <br>
+        <p class="wz" style="margin-left: 18px">手机号</p>
+        <input type="text"  name="sjh" size="17"  style="width: 150px">
+        <br>
+        <p class="wz" style="margin-left: 18px">验证码</p>
+        <input type="text"  name="yzm" size="17"  style="width: 150px">
+        <input type="button" value="获取验证码" style="width: 100px">
+        <br>
+        <input type="checkbox" name="service" value="" checked="checked" style="vertical-align: middle;">
+        <p class="wz">我已阅读并同意<a href="javascript:showBg();" class=""style="color: #004991">《房屋委托出售协议》</a></p>
+        <br>
+        <input type="submit" value="提交" id="TJ">
+    </form>
+</section>
+<section id="GG">
+    <p>天下<font color="red">委托自主卖房</font> <p>
+    <p>为您提供的一种自助式在线卖房服务，选择该服务后，
+        只需完善房屋证明和房源信息后，房源将会自动挂牌，
+        买家通过房天下大平台直接对接卖家，没有中间方参与，
+        如您需要过户，将会提供专业第三方公司提供房屋过户服务，
+        协助您完成二手房买卖过程中的权证过户和金融贷款服务。</p>
+</section>
+<form>
+    <div id="main">
+        <div id="fullbg"></div>
+        <div id="dialog">
+            <p class="close">
+
+            <section  id="XY">
+
+                <div class="sj">
+                    <h1  id="nr"><center>房屋委托出售协议</center></h1>
+            <a class="nr" href="#" onclick="closeBg();">
+                <img src="http://esf.js.soufunimg.com/esf/esf/online/secondhouse/images/NewSecond/housepublish/focusucess_close.gif" alt="" title="" class="fwcswtclose">
+            </a>
+
+            <p>签约提示：</p>
+
+            <p>1、欢迎您选择房天下网上业主委托卖房，您应当如实按照提示完成相关信息填写，
+                并确保发布的房源信息合法、真实、有效及完整；同时您应仔细阅读、充分理解合同条款。
+                您同意本协议的行为视为您通过阅读并完全同意本协议条款。</p>
+
+            <p>2、本协议依据《中华人民共和国合同法》及有关法律、法规的规定，
+                由乙方作为房屋资产出售人授权的居间和代理服务商和您（下称“甲方”）在平等、
+                自愿的基础上达成，以兹共同遵守。
+            </p>
+
+            <p>受托方（以下简称乙方）：北京存房房地产经纪有限公司第一条</p>
+
+            <p>房屋基本情况</p>
+
+            <p>甲方同意委托乙方出售其拥有合法处分权的一处房屋，并为其提供相关的居间服务；
+                乙方同意接受上述委托，为甲方提供相关服务。委托期限自本协议生效之日起至售出为止。</p>
+
+            <p>第二条</p>
+
+            <p>乙方提供的相关服务</p>
+
+            <p>1、代理甲方与潜在客户洽商交易、引领潜在客户看房，协助买卖双方促成交易。</p>
+
+                </div>
+            </section>
+        </div>
+    </div>
+</form>
+
+</body>
+</html>
